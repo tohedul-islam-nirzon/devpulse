@@ -2,7 +2,7 @@
 
 Internal Tech Issue & Feature Tracker API. A platform for software teams to report bugs, suggest features and coordinate resolutions.
 
-- **Live URL:** _add after deployment_
+- **Live URL:** https://devpulse-liard.vercel.app
 - **GitHub:** https://github.com/tohedul-islam-nirzon/devpulse
 
 ## Features
