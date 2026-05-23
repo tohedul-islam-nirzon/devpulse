@@ -4,10 +4,10 @@ import express, {
   type Request,
   type Response,
 } from "express";
-import config from "./config";
-import globalErrorHandler from "./middleware/globalErrorHandler";
-import { authRoute } from "./modules/auth/auth.route";
-import { issueRoute } from "./modules/issue/issue.route";
+import config from "./config/index.js";
+import globalErrorHandler from "./middleware/globalErrorHandler.js";
+import { authRoute } from "./modules/auth/auth.route.js";
+import { issueRoute } from "./modules/issue/issue.route.js";
 
 const app: Application = express();
 
